@@ -1,0 +1,37 @@
+body {
+    background-color: aliceblue;
+}
+body, main {
+    display: flex;
+    flex-direction: column;
+  }
+  #headerID {
+    flex-direction: column;
+    background-color: rgb(42, 128, 165);
+    border-color: black;
+    text-align: center;
+    border: 1px solid #ec0f0f;
+  }
+  ul {
+    list-style: none;
+  }
+
+  #main_id {
+    flex: auto;
+    flex-direction: row;
+    background-color: paleturquoise;
+    border-color: black;
+    overflow-y: auto;
+    border: 1px solid #ec0f0f;
+  }
+  article {
+    flex: 2;
+    overflow-y: auto;
+    border: 1px solid #ec0f0f;
+  }
+  
+  aside {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #ec0f0f;
+  }
