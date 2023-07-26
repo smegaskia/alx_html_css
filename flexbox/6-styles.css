@@ -1,0 +1,40 @@
+/* Adding a selector for the row classrow" */
+/*.header-container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    
+  }
+  */
+
+  .header-logo, .header-logo a {
+    /* header-logo and hader-logo is removed*/
+    display: none;
+    flex-direction: none;
+    justify-content: none;
+    align-items: none;
+  }.
+
+  /*navbar section*/
+  .navbar-menu {
+    display: flex;
+  }
+
+  .nav, .nav-item {
+    /*Inside the .nav .nav-item selector, remove the display declaration
+    display: flex;
+    
+    Display content is removed*/
+  }
+  
+  .nav .nav-item + .nav-item {
+    margin: 10px;
+    margin: 0002rem;
+
+  }
+
+  body {
+    background-color: rgb(222, 234, 234);
+  }
+/* Section SERVICES===================*/

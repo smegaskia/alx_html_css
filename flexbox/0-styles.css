@@ -1,0 +1,15 @@
+/* Adding a selector for the row classrow" */
+.row {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    
+  }
+  
+  .row::after {
+    
+  }
+  body {
+    background-color: rgb(222, 234, 234);
+  }
