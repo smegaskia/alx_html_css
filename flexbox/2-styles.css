@@ -14,6 +14,7 @@
     background-color: rgb(222, 234, 234);
   }
 /* Section-latest-news===================*/
-.row, .latest-news {
+
+.row .latest-news {
 flex-direction: row-reverse;
 }
