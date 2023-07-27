@@ -16,5 +16,6 @@
 /* Section-latest-news===================*/
 
 .row .latest-news {
-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    flex-direction: colum-reverse;
 }
