@@ -221,7 +221,7 @@
   }
 
   .nav .nav-item {
-    
+    display: inline-block;
   }
   
   .nav .nav-link {
